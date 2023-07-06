@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+#navbar {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+/* logo and image */
+#logo{
+    margin: 10px 34px;
+
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+
+}
+
+#navbar ul{
+    display:flex ;
+    font-size: 1.3rem;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: #ffff;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Home section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 100px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+#home p{
+    color: #ffff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#home h1{
+    color: #ffff;
+    text-align: center;
+}
+#home::before{
+    content: "";
+    background:url('./img/bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+.h-primary{
+    font-size: 3.3rem;
+    padding: 12px;
+    text-decoration:underline;
+
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px ;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+.h-secondary{
+    font-size: 2.0rem;
+    padding: 12px;
+}
+/*service cont*/
+
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: -6px 6px;
+    border-radius: 28px;
+    background-color: #dff3fe;
+    
+}
+#services .box img{
+    height: 120px;
+    margin: auto;
+    display: block;
+}
+#services{}
+#services{}
+#services{}
+
+/*client-side*/
+#client-section{
+    height: 344px;
+
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(./img/bg.jpg);
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding: 20px;
+}
+
+#clients img{
+    height: 90px;
+}
+
+/*contact*/
+#contact{
+    position: relative;
+
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width:99.4%;
+    z-index: -1;
+    opacity: 0.6;
+    background:url(./img/contact.jpg) no-repeat center center/cover;
+    border: 5px solid black;
+}
+
+footer{
+    background-color: black;
+    color: #ffff;
+    padding: 9px 20px;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box form{
+    width: 40%;
+
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,46 @@
+#navbar{
+    flex-direction: column;
+    
+}
+#home{
+    height: 330px;
+}
+#home::before{
+    height: 335px;
+}
+#home p{
+    font-size: 13px;
+}
+#services{
+    flex-direction: column;
+}
+#services .box{
+    margin: 4px 10px;
+
+}
+
+#clients{
+    overflow: hidden;
+    flex-direction: column;
+}
+.client-item {
+    padding: 0px;
+}
+
+#clients img {
+    height: 48px;
+}
+
+#contact{
+
+}
+
+footer{
+
+    font-size: 10px;
+}
+
+.h-primary{
+    font-size: 16px;
+    padding: 5px;
+}
